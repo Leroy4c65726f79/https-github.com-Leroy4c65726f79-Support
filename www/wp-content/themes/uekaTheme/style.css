@@ -8,7 +8,17 @@ body {
 	margin: 0px;
 	background-color: #F4F4F4;
 }
-
+.button {
+	background-color: #2B3A3F;
+	width: 250px;
+	height: 60px;
+	border-radius: 0.5px;
+	text-align: center;
+	color: #fff;
+	font-size: 25px;
+	padding: 12px;
+	box-sizing: border-box;
+}
 header {
 	height: 60px;
   background-color: #fff;
@@ -39,14 +49,14 @@ header {
 	vertical-align:top;
 }
 .main-navi > ul > li {
-	width: 14%;
+	width: 14.28571428571429%;
 	color: #424242 !important;
 	/* display: inline-block; */
 	list-style-type: none !important;
 	float: left;
 }
 .main-navi > ul > li:first-child {
-	margin-left: 14%;
+	margin-left: 14.28571428571429%;
 }
 .seartchloope {
 	opacity: 0.5;
@@ -86,6 +96,7 @@ a:hover, .seartchloope:hover {
 	height: 60px;
 	background-color: #F4F4F4;
 	z-index: -1;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.37);
 	display: none;
 	overflow: hidden;
 }
@@ -115,17 +126,18 @@ textarea, input, button { outline: none; }
 /* footer start */
 
 footer {
-	box-sizing: border-box;
-	background-color: #fff;
-	height: 225px;
-	width: 100%;
-	box-shadow: 0 1px 7px rgba(0,0,0,0.37);
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	padding-left: 14%;
-	padding-right: 14%;
+	margin-top: calc(100vh - 225px);
+  box-sizing: border-box;
+  background-color: #fff;
+  height: 225px;
+  width: 100%;
+  box-shadow: 0 1px 7px rgba(0,0,0,0.37);
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-left: 14.28571428571429%;
+  padding-right: 14.28571428571429%;
 }
 .fo_subtext {
 	position: absolute;
@@ -144,7 +156,7 @@ footer {
 .footer-navi {
 	position: absolute;
 	top: 0px;
-	margin-left: 42%;
+	margin-left: 42.85714285714287%;
 	display: inline-block;
 	margin-top: 20px;
 	list-style-type: none !important;
@@ -164,7 +176,7 @@ footer {
 /* follow */
 .follow {
 	position: absolute;
-	margin-left: 56%;
+	margin-left: 57.14285714285716%;
 	margin-right: 14%;
 	line-height: 2;
 }
@@ -193,18 +205,137 @@ a img {
 
 
 
+/* page */
+.pg_title {
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	font-size: 30px;
+	color: #424242;
+}
+.pg_back_linie {
+	position: absolute;
+	z-index: -1;
+	height: 100%;
+	width: 1px;
+	background: black;
+	opacity: 0.25;
+	display: inline-block;
+	box-sizing: border-box;
+	z-index: -1000;
+}
+.pg_back_container {
+}
+.ph_main_cont {
+	position: absolute;
+	width: 100%;
+}
 
 
 
 
+/* servises pg */
+
+.pg_card {
+	width: 21%;
+	background-color: #fff;
+	height: 400px;
+	padding: 20px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+#pg_card1 {
+	margin-left: 11%;
+}
+#pg_card2 {
+	margin-left: 7.25%;
+}
+#pg_card3 {
+	margin-left: 7.20%;
+}
+.pg_card_titel {
+	font-size: 25px;
+	color: black;
+	margin-bottom: 40px;
+	text-align: center;
+}
+.pg_card_text {
+	text-align: center;
+	font-size: 14px;
+}
+.pg_card_button {
+	margin-top: 8vh;
+	margin-left: calc(50% - (250px / 2));
+}
+
+/*Video*/
+.pg_cart_video {
+	background-color: #fff;
+	width: 880px;
+	height: 512.5px;
+	padding: 20px;
+	box-sizing: border-box;
+	margin-left: calc(50% - (880px / 2));
+}
+.pg_iframe_video {
+	margin-left: calc(50% - (840px / 2));
+
+}
+.pg_imgcontainer {
+	width: 18vw;
+	height: 18vw;
+	display: inline-block;
+	margin-top: 10%;
+	margin-left: calc(10.5vw);
+}
+.pg_imgcontainer > img {
+	width: 18vw;
+	height: 18vw;
+}
+.pg_imgcontainer_first {
+	margin-left: calc(21% - (18vw / 2)) !important;
+}
 
 
 
+.home_e_div {
+	width: 100%;
+	height: 90vh;
+	overflow: hidden;
+}
+.home_e_img {
+	width: 100%;
+	margin-top: -30vh;
+}
+.home_e_title {
+	font-weight: 100;
+	font-style: italic;
+	font-size: 4vw;
+	color: #fff;
+	margin-top: 3vw;
+	margin-left: 50px;
+}
+.home_e_text {
+	font-style: normal;
+	font-size: 1vw;
+	color: #fff;
+	margin-top: -2vw;
+	margin-left: 50px;
+}
+.home_e_div_c {
+	position: absolute;
 
-
-
-
-
+}
+.home_s_img {
+  width: 28.4vw;
+	box-shadow: 0px 0px 8px rgba(0,0,0,0.24);
+	float: left;
+}
+.home_s_text {
+	width: 40.957143vw;
+	font-size: 18px;
+	margin-left: calc(14.28571428571429vw * 3);
+}
 
 
 
@@ -214,7 +345,5 @@ a img {
 
 
 @media (max-width: 992px) {
-	.titel-absolute {
-		bottom: 30px;
-	}
+
 }

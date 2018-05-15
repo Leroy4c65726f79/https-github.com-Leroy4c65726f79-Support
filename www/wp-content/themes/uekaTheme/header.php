@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100i,300,300i,400,700" rel="stylesheet">
     <title><?php bloginfo('name'); wp_title(); ?></title>
     <?php wp_enqueue_style('style', get_template_directory_uri().'/style.css');
+          wp_enqueue_style('style.SASS', get_template_directory_uri().'/css/style.min.css');
           wp_head();
            ?>
   </head>
