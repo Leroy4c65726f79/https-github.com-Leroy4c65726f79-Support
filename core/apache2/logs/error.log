@@ -1,0 +1,54 @@
+[Thu Jun 08 09:30:40.508125 2017] [mpm_winnt:notice] [pid 5544:tid 244] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Thu Jun 08 09:30:40.508125 2017] [mpm_winnt:notice] [pid 5544:tid 244] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Thu Jun 08 09:30:40.508125 2017] [core:notice] [pid 5544:tid 244] AH00094: Command line: 'D:\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d D:/UniServerZ/core/apache2 -f D:\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d D:\\UniServerZ\\core\\apache2'
+[Thu Jun 08 09:30:40.508125 2017] [mpm_winnt:notice] [pid 5544:tid 244] AH00418: Parent: Created child process 3076
+[Thu Jun 08 09:30:40.882525 2017] [mpm_winnt:notice] [pid 3076:tid 268] AH00354: Child: Starting 150 worker threads.
+[Thu Jun 08 09:33:50.893510 2017] [php7:notice] [pid 3076:tid 1500] [client ::1:58558] WordPress-Datenbank-Fehler Unknown column 'wp_' in 'field list' f\xc3\xbcr die Abfrage SELECT wp_, referer: http://localhost/wordpress/wp-admin/setup-config.php?step=1&language=de_DE
+D:/UniServerZ/core/msmtp/msmtp.exe: cannot get initial OK message from server
+D:/UniServerZ/core/msmtp/msmtp.exe: server message: 554 cm3gb1 smtp.talktalk.net ESMTP server not available
+D:/UniServerZ/core/msmtp/msmtp.exe: could not send mail (account default from D:/UniServerZ/core/msmtp/msmtprc.ini)
+[Thu Jun 08 09:40:54.142878 2017] [php7:error] [pid 3076:tid 1508] [client ::1:49251] script 'D:/UniServerZ/www/phpmyadmin.css.php' not found or unable to stat
+[Thu Jun 08 09:57:02.786621 2017] [core:warn] [pid 7084:tid 160] AH00098: pid file G:/BICT/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jun 08 09:57:03.036221 2017] [mpm_winnt:notice] [pid 7084:tid 160] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Thu Jun 08 09:57:03.036221 2017] [mpm_winnt:notice] [pid 7084:tid 160] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Thu Jun 08 09:57:03.036221 2017] [core:notice] [pid 7084:tid 160] AH00094: Command line: 'G:\\BICT\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d G:/BICT/UniServerZ/core/apache2 -f G:\\BICT\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d G:\\BICT\\UniServerZ\\core\\apache2'
+[Thu Jun 08 09:57:03.051822 2017] [mpm_winnt:notice] [pid 7084:tid 160] AH00418: Parent: Created child process 7020
+[Thu Jun 08 09:57:03.644834 2017] [mpm_winnt:notice] [pid 7020:tid 268] AH00354: Child: Starting 150 worker threads.
+[Thu Jun 08 09:58:37.556205 2017] [core:warn] [pid 6556:tid 160] AH00098: pid file G:/BICT/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jun 08 09:58:37.609208 2017] [mpm_winnt:notice] [pid 6556:tid 160] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Thu Jun 08 09:58:37.609208 2017] [mpm_winnt:notice] [pid 6556:tid 160] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Thu Jun 08 09:58:37.609208 2017] [core:notice] [pid 6556:tid 160] AH00094: Command line: 'G:\\BICT\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d G:/BICT/UniServerZ/core/apache2 -f G:\\BICT\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d G:\\BICT\\UniServerZ\\core\\apache2'
+[Thu Jun 08 09:58:37.621209 2017] [mpm_winnt:notice] [pid 6556:tid 160] AH00418: Parent: Created child process 3792
+[Thu Jun 08 09:58:38.170240 2017] [mpm_winnt:notice] [pid 3792:tid 268] AH00354: Child: Starting 150 worker threads.
+[Mon May 14 10:30:25.794097 2018] [core:warn] [pid 17096:tid 612] AH00098: pid file D:/00_Coding/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 14 10:30:25.824039 2018] [mpm_winnt:notice] [pid 17096:tid 612] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Mon May 14 10:30:25.824039 2018] [mpm_winnt:notice] [pid 17096:tid 612] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Mon May 14 10:30:25.824039 2018] [core:notice] [pid 17096:tid 612] AH00094: Command line: 'D:\\00_Coding\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d D:/00_Coding/UniServerZ/core/apache2 -f D:\\00_Coding\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d D:\\00_Coding\\UniServerZ\\core\\apache2'
+[Mon May 14 10:30:25.830060 2018] [mpm_winnt:notice] [pid 17096:tid 612] AH00418: Parent: Created child process 12672
+[Mon May 14 10:30:26.287225 2018] [mpm_winnt:notice] [pid 12672:tid 720] AH00354: Child: Starting 150 worker threads.
+[Mon May 14 10:33:38.373000 2018] [php7:notice] [pid 12672:tid 1856] [client ::1:55953] WordPress-Datenbank-Fehler Unknown column 'wp_' in 'field list' f\xc3\xbcr die Abfrage SELECT wp_, referer: http://localhost/wp-admin/setup-config.php?step=1&language=de_DE
+D:/00_Coding/UniServerZ/core/msmtp/msmtp.exe: cannot get initial OK message from server
+D:/00_Coding/UniServerZ/core/msmtp/msmtp.exe: server message: 554 cm4gb1 smtp.talktalk.net ESMTP server not available
+D:/00_Coding/UniServerZ/core/msmtp/msmtp.exe: could not send mail (account default from D:/00_Coding/UniServerZ/core/msmtp/msmtprc.ini)
+[Mon May 14 13:37:36.172638 2018] [core:error] [pid 12672:tid 1856] (20024)The given path is misformatted or contained invalid characters: [client ::1:65364] AH00127: Cannot map GET /wp-content/themes/uekaTheme/.../Img/search.svg HTTP/1.1 to file, referer: http://localhost/wp-content/themes/uekaTheme/style.css?ver=4.9.5
+[Mon May 14 15:45:31.241483 2018] [php7:warn] [pid 12672:tid 1848] [client ::1:56485] PHP Warning:  include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in D:\\00_Coding\\UniServerZ\\www\\wp-content\\themes\\uekaTheme\\footer.php on line 16, referer: http://localhost/
+[Mon May 14 15:45:31.241483 2018] [php7:warn] [pid 12672:tid 1848] [client ::1:56485] PHP Warning:  include(http://localhost/wp-content/themes/uekaTheme/js/main.js.php): failed to open stream: no suitable wrapper could be found in D:\\00_Coding\\UniServerZ\\www\\wp-content\\themes\\uekaTheme\\footer.php on line 16, referer: http://localhost/
+[Mon May 14 15:45:31.241483 2018] [php7:warn] [pid 12672:tid 1848] [client ::1:56485] PHP Warning:  include(): Failed opening 'http://localhost/wp-content/themes/uekaTheme/js/main.js.php' for inclusion (include_path='.;D:/00_Coding/UniServerZ/home/us_pear/PEAR') in D:\\00_Coding\\UniServerZ\\www\\wp-content\\themes\\uekaTheme\\footer.php on line 16, referer: http://localhost/
+[Mon May 14 15:46:01.807431 2018] [php7:warn] [pid 12672:tid 1856] [client ::1:56501] PHP Warning:  include(/js/main.js.php): failed to open stream: No such file or directory in D:\\00_Coding\\UniServerZ\\www\\wp-content\\themes\\uekaTheme\\footer.php on line 16, referer: http://localhost/
+[Mon May 14 15:46:01.807431 2018] [php7:warn] [pid 12672:tid 1856] [client ::1:56501] PHP Warning:  include(): Failed opening '/js/main.js.php' for inclusion (include_path='.;D:/00_Coding/UniServerZ/home/us_pear/PEAR') in D:\\00_Coding\\UniServerZ\\www\\wp-content\\themes\\uekaTheme\\footer.php on line 16, referer: http://localhost/
+[Tue May 15 08:28:15.991294 2018] [core:warn] [pid 10508:tid 648] AH00098: pid file D:/00_Coding/UniServerZ/core/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue May 15 08:28:16.194441 2018] [mpm_winnt:notice] [pid 10508:tid 648] AH00455: Apache/2.4.25 (Win32) PHP/7.1.1 configured -- resuming normal operations
+[Tue May 15 08:28:16.194441 2018] [mpm_winnt:notice] [pid 10508:tid 648] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Tue May 15 08:28:16.194441 2018] [core:notice] [pid 10508:tid 648] AH00094: Command line: 'D:\\00_Coding\\UniServerZ\\core\\apache2\\bin\\httpd_z.exe -d D:/00_Coding/UniServerZ/core/apache2 -f D:\\00_Coding\\UniServerZ\\core\\apache2\\conf\\httpd.conf -d D:\\00_Coding\\UniServerZ\\core\\apache2'
+[Tue May 15 08:28:16.194441 2018] [mpm_winnt:notice] [pid 10508:tid 648] AH00418: Parent: Created child process 560
+[Tue May 15 08:28:16.632014 2018] [mpm_winnt:notice] [pid 560:tid 692] AH00354: Child: Starting 150 worker threads.
+D:/00_Coding/UniServerZ/core/msmtp/msmtp.exe: cannot get initial OK message from server
+D:/00_Coding/UniServerZ/core/msmtp/msmtp.exe: server message: 554 cm2gb1 smtp.talktalk.net ESMTP server not available
+D:/00_Coding/UniServerZ/core/msmtp/msmtp.exe: could not send mail (account default from D:/00_Coding/UniServerZ/core/msmtp/msmtprc.ini)
+D:/00_Coding/UniServerZ/core/msmtp/msmtp.exe: cannot get initial OK message from server
+D:/00_Coding/UniServerZ/core/msmtp/msmtp.exe: server message: 554 cm2gb1 smtp.talktalk.net ESMTP server not available
+D:/00_Coding/UniServerZ/core/msmtp/msmtp.exe: could not send mail (account default from D:/00_Coding/UniServerZ/core/msmtp/msmtprc.ini)
+D:/00_Coding/UniServerZ/core/msmtp/msmtp.exe: cannot get initial OK message from server
+D:/00_Coding/UniServerZ/core/msmtp/msmtp.exe: server message: 554 cm2gb1 smtp.talktalk.net ESMTP server not available
+D:/00_Coding/UniServerZ/core/msmtp/msmtp.exe: could not send mail (account default from D:/00_Coding/UniServerZ/core/msmtp/msmtprc.ini)
+[Tue May 15 08:36:19.877620 2018] [php7:warn] [pid 560:tid 1888] [client ::1:53484] PHP Warning:  Ein unerwarteter Fehler ist aufgetreten. Es scheint etwas bei WordPress.org oder mit dieser Serverkonfiguration nicht zu stimmen. Sollte das Problem weiter bestehen, nutze bitte die <a href="https://de.wordpress.org/hilfe/">Support-Foren</a>. (WordPress konnte keine sichere Verbindung zu WordPress.org herstellen. Bitte kontaktiere deinen Server-Administrator.) in D:\\00_Coding\\UniServerZ\\www\\wp-admin\\includes\\plugin-install.php on line 168, referer: http://localhost/wp-admin/plugins.php

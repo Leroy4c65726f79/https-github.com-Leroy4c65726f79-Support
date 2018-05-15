@@ -1,0 +1,220 @@
+/* Theme Name: Test theme für den Ük
+Description: Eine allgemeine Beschreibung des Templates,
+Erstellungsjahr Author: Janis Wanger
+Version: 1.0 */
+body {
+	font-family: Yu Gothic UI, 'Roboto', sans-serif;
+	padding: 0px;
+	margin: 0px;
+	background-color: #F4F4F4;
+}
+
+header {
+	height: 60px;
+  background-color: #fff;
+  box-shadow: 0 4px 7px rgba(0,0,0,0.37);
+  width: 100%;
+}
+.main-navi {
+	text-decoration: none;
+	color: #424242;
+	list-style-type: none !important;
+	display: inline-block !important;
+	position: relative;
+	background-color: none;
+	width: 100%;
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+.main-navi > ul {
+	width: 100%;
+	padding: 0px !important;
+	color: #424242 !important;
+	display:inline-block;
+	vertical-align:top;
+}
+.main-navi > ul > li {
+	width: 14%;
+	color: #424242 !important;
+	/* display: inline-block; */
+	list-style-type: none !important;
+	float: left;
+}
+.main-navi > ul > li:first-child {
+	margin-left: 14%;
+}
+.seartchloope {
+	opacity: 0.5;
+	background-repeat: no-repeat;
+	display: block;
+	content: "";
+	width: 20px;
+	height: 20px;
+	z-index: 1;
+	background-image: url(http://localhost/wp-content/themes/uekaTheme/Img/search.svg);
+	position: absolute;
+	margin-left: 12%;
+	/* padding-left: 50px; */
+	margin-top: -19px;
+}
+li > a{
+	color: #424242 !important;
+}
+a {
+	text-decoration: none;
+	border-bottom: 1.5px solid rgba(255,255,255,0);
+}
+a:hover, .seartchloope:hover {
+	text-decoration: none;
+	border-bottom: 1.5px solid rgba(66, 66, 66, 0.6);
+}
+.main-navi > a {
+	padding: 2px 0px;
+	display: block;
+	float: left;
+	width: auto;
+	background-color: #fff;
+	margin-right: 5px;
+}
+.seartchc {
+	width: 100%;
+	height: 60px;
+	background-color: #F4F4F4;
+	z-index: -1;
+	display: none;
+	overflow: hidden;
+}
+.searchform {
+	margin-top: 110px;
+}
+.form-group > input {
+	background-color: #f4f4f4 !important;
+	border: 0px;
+	box-shadow: 0px 0px 0px rgba(0,0,0,0);
+	padding: 0px;
+	margin: 0px;
+	font-size: 40px;
+	text-align: left;
+	width: 320px;
+}
+.form-group {
+	 margin-left: calc(50% - (320px / 2));
+}
+
+textarea, input, button { outline: none; }
+
+
+
+
+
+/* footer start */
+
+footer {
+	box-sizing: border-box;
+	background-color: #fff;
+	height: 225px;
+	width: 100%;
+	box-shadow: 0 1px 7px rgba(0,0,0,0.37);
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding-left: 14%;
+	padding-right: 14%;
+}
+.fo_subtext {
+	position: absolute;
+	display: inline-block;
+	margin-top: 30px;
+	font-size: 15px;
+	width: 28%;
+}
+.fo_subtext_title {
+	font-size: 22px;
+}
+.fo_subtext_cop {
+	font-size: 12px;
+
+}
+.footer-navi {
+	position: absolute;
+	top: 0px;
+	margin-left: 42%;
+	display: inline-block;
+	margin-top: 20px;
+	list-style-type: none !important;
+}
+.footer-navi > ul > li {
+	width: 14%;
+	color: #424242 !important;
+	list-style-type: none !important;
+	line-height: 1.9;
+}
+.footer-navi > ul {
+	margin: 0 !important;
+	padding: 0 !important;
+	margin-top: 10px !important;
+}
+
+/* follow */
+.follow {
+	position: absolute;
+	margin-left: 56%;
+	margin-right: 14%;
+	line-height: 2;
+}
+footer p.follow a {
+    margin: 0 10px 0 0;
+}
+
+a:link, a:visited {
+    color: #3a8bbb;
+    text-decoration: none;
+}
+footer p.follow {
+    margin-top: 120px;
+}
+footer p {
+    margin: 0 50px 10px 0;
+    line-height: 1.6;
+}
+footer p.follow a img {
+    opacity: .37;
+}
+a img {
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+	.titel-absolute {
+		bottom: 30px;
+	}
+}
